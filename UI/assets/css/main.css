@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+}
+
+ h2 {
+    color: #FC8019;
+}
+
+.first-customer-section {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    height: 100vh;
+}
+
+.dish {
+    background-color: gray;
+    grid-column-start: 3;
+    grid-column-end: 6;
+}
+
+.form {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin: auto;
+    padding: 20px;
+}
+
+.top {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+.logo {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    /* background-color: red; */
+}
+
+.access {
+    grid-column-start: 3;
+    grid-column-end: 6;
+    /* background-color: blue; */
+}
