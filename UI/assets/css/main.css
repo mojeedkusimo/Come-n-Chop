@@ -1,134 +1,126 @@
-input:focus {
-    border: #FC8019 2px solid;
-}
-
 body {
-    margin: 0;
-    font-family: cursive;
+  margin: 0;
+  font-family: cursive;
 }
 
- h2 {
-    color: #FC8019;
+h2 {
+  color: #FC8019;
 }
 
 .first-customer-section {
-    display: grid;
-    grid-template-columns: auto auto auto auto auto;
-    height: 100vh;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  height: 100vh;
 }
 
 .dish {
-    background-color: gray;
-    background-image: url("../img/meal3.png");
-    background-size: cover;
-    grid-column-start: 2;
-    grid-column-end: 6;
+  background-color: gray;
+  background-image: url("../img/meal3.png");
+  background-size: cover;
+  grid-column-start: 2;
+  grid-column-end: 6;
 }
 
 .form {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    margin-left: 5vh;
-    margin-top: 10vh;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  margin-left: 5vh;
+  margin-top: 10vh;
 }
 
 .top {
-    display: grid;
-    grid-template-columns: auto auto auto auto auto;
-    margin-top: 100px;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  margin-top: 100px;
 }
 
 .logo {
-    grid-column-start: 1;
-    grid-column-end: 4;
-    font-family: cursive;
-    text-transform: uppercase;
-    font-size: larger;
-    margin-right: 30vh;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  font-family: cursive;
+  text-transform: uppercase;
+  font-size: larger;
+  margin-right: 30vh;
 }
 
 .access {
-    grid-column-start: 4;
-    grid-column-end: 6;
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    margin-top: 15px;
-    margin-left: -80px;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-column-start: 4;
+  grid-column-end: 6;
+  margin-top: 15px;
+  margin-left: -80px;
 }
 
 .signup {
-    color: white;
-    background-color: black;
-    padding: 10px 20px;
-    grid-column-start: 3;
+  color: white;
+  background-color: black;
+  padding: 10px 20px;
+  grid-column-start: 3;
+}
+.signup:hover {
+  cursor: pointer;
+  box-shadow: black 0px 0px 5px;
 }
 
 .login {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    margin-right: 20px;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  margin-right: 20px;
 }
-
 .login:hover {
-    color:  #FC8019;
-    cursor: pointer;
-}
-
-.signup:hover {
-    cursor: pointer;
-    box-shadow: black 0px 0px 5px;
+  color: #FC8019;
+  cursor: pointer;
 }
 
 .title {
-    font-size: 45px;
-    font-weight: 900;
+  font-size: 45px;
+  font-weight: 900;
 }
 
 .sub-title {
-    font-size: 25px;
-    font-weight: lighter;
+  font-size: 25px;
+  font-weight: lighter;
 }
 
 input {
-    min-width: 30px;
-    width: 40vw;
-    height: 8vh;
-    padding-left: 5vh;
-    font-size: 17px;
+  min-width: 30px;
+  width: 40vw;
+  height: 8vh;
+  padding-left: 5vh;
+  font-size: 17px;
 }
-
-
+input:focus {
+  border: #FC8019 1px solid;
+}
 
 .form-button {
-    color: white;
-    background-color: #FC8019;
-    line-height: 8vh;
-    margin-left: -5px;
-    padding: 0px 3vh;
+  color: white;
+  background-color: #FC8019;
+  line-height: 8vh;
+  margin-left: -5px;
+  padding: 0px 3vh;
 }
-
 .form-button:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
-
 a:nth-child(even) {
-    color: #a9abb2;
+  color: #a9abb2;
 }
-
 a:nth-child(odd) {
-    color: #686b78;
+  color: #686b78;
 }
 
 .popular {
-    color: #a9abb2;
-    font-size: 17px;
+  color: #a9abb2;
+  font-size: 17px;
 }
 
 .inline-form {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
