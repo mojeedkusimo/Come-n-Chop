@@ -1,7 +1,6 @@
 @import "variables";
 @import "mixins";
 
-
 body {
     margin: 0;
     font-family: cursive;
@@ -63,6 +62,14 @@ body {
         cursor: $pointer;
         box-shadow: black 0px 0px 5px;
     }
+    
+    a {
+        color: white;
+
+        &:hover {
+            color: white;
+        }
+    }
 }
 
 .login {
@@ -70,9 +77,11 @@ body {
     grid-column-end: 2;
     margin-right: 20px;
 
-    &:hover {
-        color:  $colorTheme;
-        cursor: $pointer;            
+    a {
+        &:hover {
+            color:  $colorTheme;
+            cursor: $pointer;            
+        }
     }
 }
 
@@ -130,7 +139,54 @@ a {
     font-size: 17px;
 }
 
+
 .inline-form {
     display: flex;
     flex-wrap: wrap;
+}
+
+// Login styles
+.login-form {
+    text-align: center;
+    margin: 70px 0;
+
+    h1 {
+        margin: 20px 0;
+    }
+
+    input {
+        @include inputField;
+
+        &:focus {
+            border: $colorTheme solid 1px;
+        }
+    }
+
+    button {
+        // @include inputField;
+        width: 340px;
+        height: 50px;
+        margin: 20px 0;
+        font-family: cursive;
+        color: white;
+        font-weight: 700;
+        background-color: $colorTheme;
+    }
+
+    .new {
+        text-align: center;
+
+        a {
+            color: $colorTheme;
+        }
+    }
+
+    .logo {
+        text-align: center;
+        width: 100%;
+
+        a {
+            color: $colorTheme;
+        }
+    }
 }

@@ -2,3 +2,9 @@
     display: grid;
     grid-template-columns: auto auto auto auto auto;
 }
+
+@mixin inputField {
+    width: 300px;
+    height: 70px;
+    // margin: 20px 0;
+}

@@ -62,13 +62,19 @@ h2 {
   cursor: pointer;
   box-shadow: black 0px 0px 5px;
 }
+.signup a {
+  color: white;
+}
+.signup a:hover {
+  color: white;
+}
 
 .login {
   grid-column-start: 1;
   grid-column-end: 2;
   margin-right: 20px;
 }
-.login:hover {
+.login a:hover {
   color: #FC8019;
   cursor: pointer;
 }
@@ -123,4 +129,41 @@ a:nth-child(odd) {
 .inline-form {
   display: flex;
   flex-wrap: wrap;
+}
+
+.login-form {
+  text-align: center;
+  margin: 70px 0;
+}
+.login-form h1 {
+  margin: 20px 0;
+}
+.login-form input {
+  width: 300px;
+  height: 70px;
+}
+.login-form input:focus {
+  border: #FC8019 solid 1px;
+}
+.login-form button {
+  width: 340px;
+  height: 50px;
+  margin: 20px 0;
+  font-family: cursive;
+  color: white;
+  font-weight: 700;
+  background-color: #FC8019;
+}
+.login-form .new {
+  text-align: center;
+}
+.login-form .new a {
+  color: #FC8019;
+}
+.login-form .logo {
+  text-align: center;
+  width: 100%;
+}
+.login-form .logo a {
+  color: #FC8019;
 }
