@@ -154,6 +154,9 @@ a:nth-child(odd) {
   font-weight: 700;
   background-color: #FC8019;
 }
+.login-form button a {
+  color: white;
+}
 .login-form .new {
   text-align: center;
 }
@@ -166,4 +169,117 @@ a:nth-child(odd) {
 }
 .login-form .logo a {
   color: #FC8019;
+}
+
+.header {
+  width: 100%;
+}
+.header .header-logo {
+  width: 35%;
+  margin-top: 10px;
+  color: #FC8019;
+  text-align: center;
+  float: left;
+}
+.header .header-logo a {
+  color: #FC8019;
+}
+.header .header-menus {
+  float: right;
+  width: 65%;
+  text-align: right;
+  margin-top: 20px;
+}
+.header .header-menus .header-menu-list, .header .header-menus .hotlines {
+  margin: 0 30px;
+}
+.header .header-menus .header-menu-list .cart-num, .header .header-menus .hotlines .cart-num {
+  background-color: #FC8019;
+  padding: 5px;
+  color: white;
+}
+.header .header-menus .hotlines {
+  color: #FC8019;
+}
+
+.main {
+  width: 100%;
+}
+.main .left-panel {
+  width: 30%;
+  float: left;
+  margin-top: 8px;
+}
+.main .left-panel p {
+  width: 92.5%;
+  padding-left: 30px;
+  padding-top: 20px;
+  height: 50px;
+  border: black solid 1px;
+  margin: 0;
+}
+.main .left-panel p:hover {
+  color: #FC8019;
+  cursor: pointer;
+}
+.main .left-panel .available {
+  width: 93%;
+  line-height: 60px;
+  background-color: #FC8019;
+  color: white;
+  padding-left: 30px;
+}
+.main .left-panel a {
+  width: 100%;
+  padding-left: 30px;
+  height: 50px;
+  line-height: 60px;
+  border: black solid 1px;
+}
+.main .left-panel input {
+  width: 100%;
+  margin: 0;
+}
+.main .center {
+  width: 70%;
+  float: right;
+}
+.main .center .menu-items {
+  border: black solid 1px;
+  border-radius: 10px;
+  margin-left: 20px;
+  width: 15vw;
+  display: inline-block;
+  height: 15vw;
+  margin-bottom: 20px;
+}
+.main .center .menu-items:hover {
+  cursor: pointer;
+}
+.main .center .menu-items:hover .food {
+  color: #FC8019;
+}
+.main .center .menu-items .cost-order {
+  width: 100%;
+  margin-top: 120px;
+}
+.main .center .menu-items .cost-order .cost {
+  width: 39%;
+  float: left;
+  padding-left: 10px;
+}
+.main .center .menu-items .cost-order .cost:hover {
+  color: black;
+}
+.main .center .menu-items .cost-order .order {
+  width: 39%;
+  float: right;
+  margin: 0 10px;
+  border: #FC8019 dashed 1px;
+  padding-left: 10px;
+  color: #FC8019;
+}
+.main .center .menu-items .cost-order .order:hover {
+  background-color: #FC8019;
+  color: white;
 }
