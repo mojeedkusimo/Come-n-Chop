@@ -107,8 +107,12 @@ input:focus {
   margin-left: -5px;
   padding: 0px 3vh;
 }
+.form-button a {
+  color: white;
+}
 .form-button:hover {
   cursor: pointer;
+  color: white;
 }
 
 a {
@@ -252,6 +256,20 @@ a:nth-child(odd) {
   display: inline-block;
   height: 15vw;
   margin-bottom: 20px;
+}
+.main .center .menu-items .menu-items-left {
+  width: 60%;
+  float: left;
+  padding-left: 20px;
+}
+.main .center .menu-items .menu-items-left input {
+  width: 10%;
+}
+.main .center .menu-items .menu-items-right {
+  width: 30%;
+  float: right;
+  text-align: center;
+  font-size: 30px;
 }
 .main .center .menu-items:hover {
   cursor: pointer;

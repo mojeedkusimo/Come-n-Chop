@@ -115,8 +115,13 @@ input {
     margin-left: -5px;
     padding: 0px 3vh;
 
+    a {
+        color: white;
+    }
+
     &:hover {
         cursor: $pointer;
+        color: white;
     }
 }
 
@@ -238,6 +243,13 @@ a {
     width: 100%;
     // margin: 0 30px;
 
+    // .right-panel {
+    //         width: 15%;
+    //         float: right;
+    //         // background-color: red;
+    //         margin-top: 8px;    
+    // }
+
     .left-panel {
         width: 30%;
         float: left;
@@ -296,6 +308,24 @@ a {
             display: inline-block;
             height: 15vw;
             margin-bottom: 20px;
+
+            .menu-items-left {
+                width: 60%;
+                float: left;
+                padding-left: 20px;
+
+                input {
+                    width: 10%;
+                }
+            }
+
+            .menu-items-right {
+                width: 30%;
+                float: right;
+                text-align: center;
+                // margin-right: 20px;
+                font-size: 30px;
+            }
 
             &:hover {
                 cursor: pointer;
