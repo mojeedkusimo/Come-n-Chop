@@ -100,6 +100,11 @@ input:focus {
   border: #FC8019 1px solid;
 }
 
+textarea {
+  padding-left: 5vh;
+  font-size: 17px;
+}
+
 .form-button {
   color: white;
   background-color: #FC8019;

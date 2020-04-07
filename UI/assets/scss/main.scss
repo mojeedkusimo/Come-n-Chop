@@ -108,6 +108,11 @@ input {
 }
 
 
+textarea {
+    padding-left: 5vh;
+    font-size: 17px;
+}
+
 .form-button {
     color: white;
     background-color: $colorTheme;
@@ -364,5 +369,22 @@ a {
                 }
             }
         }
+
+        // .review-section {
+        //     width: 100%;
+        //     border: green solid 2px;
+
+        //     .review-content {
+        //         background-color: red;
+        //         width: 50%;
+        //         float: left;
+        //     }
+
+        //     .review-form {
+        //         background-color: blue;
+        //         width: 50%;
+        //         float: right;
+        //     }
+        // }
     }
 }

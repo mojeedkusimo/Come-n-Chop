@@ -15,12 +15,12 @@
         }
 
         .main .left-panel .available {
-            width: 92%;
+            width: 93%;
         }
 
-        .main .left-panel input {
-            width: 90%;
-        }
+        /* .main .left-panel input {
+            width: 80%;
+        } */
 
         .checkout {
             background-color: #FC8019;
@@ -28,14 +28,15 @@
             padding: 10px;
         }
 
-        .remove {
+        .remove, .submit {
             background-color: #FC8019;
             color: white;
             display: inline-block;
             margin-top: 20px;
             padding: 10px;           
         }
-
+        
+        
         .checkout:hover {
             cursor: pointer;
         }
@@ -44,6 +45,29 @@
             width: 65vw;
             height: 20vw;
         }
+
+        .review-section {
+            width: 99.6%;
+            /* border: green solid 5px; */
+            text-align: center;
+        }
+
+        .review-section .review-content {
+            /* background-color: red; */
+            width: 55%;
+            float: left;
+        }
+
+        .review-section .review-form {
+            /* background-color: blue; */
+            width: 45%;
+            float: right;
+        }
+
+        .review-section .review-form input {
+            width: 70%;
+        }
+        
         </style>
 </head>
 <body>
@@ -65,18 +89,42 @@
     <div class="main">
         <div class="left-panel">
             <div class="available">Available Menus</div>
-            <p href="#">AMALA AND EWEDU SOUP</p>
-            <p href="#">BREAD AND EGG</p>
-            <p href="#">RICE, BEANS, & PASTA</p>
-            <p href="#">YAM, POTATO, & PLANTAIN</p>
-            <p href="#">POUNDED YAM AND EGUSI SOUP</p>
-            <p href="#">FRUIT SALAD</p>
-            <p href="#">BEANS AND PLANTAIN</p>
-            <p href="#">CHICKEN AND CHIPS</p>
-            <p href="#">SHAWARMA</p>
-            <p href="#">FANTA</p>
-            <p href="#">COKE</p>
-            <p href="#">SPRITE</p>
+            <p href="#">AMALA AND EWEDU SOUP <br>
+                <span>N800</span>
+            </p>
+            <p href="#">BREAD AND EGG <br>
+                <span>N800</span>
+            </p>
+            <p href="#">RICE, BEANS, & PASTA <br>
+                <span>N800</span>
+            </p>
+            <p href="#">YAM, POTATO, & PLANTAIN <br>
+                <span>N800</span>
+            </p>
+            <p href="#">POUNDED YAM AND EGUSI SOUP <br>
+                <span>N800</span>
+            </p>
+            <p href="#">FRUIT SALAD <br>
+                <span>N800</span>
+            </p>
+            <p href="#">BEANS AND PLANTAIN <br>
+                <span>N800</span>
+            </p>
+            <p href="#">CHICKEN AND CHIPS <br>
+                <span>N800</span>
+            </p>
+            <p href="#">SHAWARMA <br>
+                <span>N800</span>
+            </p>
+            <p href="#">FANTA <br>
+                <span>N800</span>
+            </p>
+            <p href="#">COKE <br>
+                <span>N800</span>
+            </p>
+            <p href="#">SPRITE <br>
+                <span>N800</span>
+            </p>
         </div>
         <div class="center">
             <div class="menu-items">
@@ -90,17 +138,20 @@
                     <p>N800</p>
                 </div>
             </div>
-            <!-- <div class="menu-items">
-                <div class="menu-items-left">
-                    <h4><span class="foo">FRESH BREAD + EWA AGONYIN & SAUCE</span></h4>
-                    <p>Price: N800</p>
-                    <input type="number" name="" value="1" id=""><br>
-                    <span class="remove">Remove</span>
+            <div class="review-section">
+                <h2>REVIEWS</h2>
+                <div class="review-content">
+                    <p>There are currently no reviews for this product</p>
                 </div>
-                <div class="menu-items-right">
-                    <p>N800</p>
+                <div class="review-form">
+                    <form action="#">
+                        <input type="text" name="" id="" placeholder="Name"><br>
+                        <input type="text" name="" id="" placeholder="Email"><br>
+                        <textarea name="comment" id="" cols="31" rows="10" placeholder="Message"></textarea><br>
+                        <span class="remove">Submit</span>
+                    </form>
                 </div>
-            </div>      -->
+            </div>
         </div>
     </div>
 </body>
